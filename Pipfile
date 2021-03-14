@@ -5,11 +5,13 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
-pydantic = "*"
 uvicorn = "*"
 sqlalchemy = "*"
 mypy = "*"
 pytest = "*"
+graphene = "*"
+pydantic = "*"
+graphene-pydantic = "*"
 
 [dev-packages]
 

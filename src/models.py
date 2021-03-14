@@ -14,5 +14,4 @@ class User(Base):
     name = Column(String, unique=True, nullable=False)
     email = Column(String, unique=True, nullable=False)
     phone = Column(String, nullable=True)
-    hashedPassword = Column(String, nullable=False)
     created = Column(DateTime, default=datetime.utcnow, nullable=False)
